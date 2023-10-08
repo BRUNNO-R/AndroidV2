@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aplicação-Android-Entregar</string>
+    <string name="title_activity_salario">SalarioActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_gastos">GastosActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

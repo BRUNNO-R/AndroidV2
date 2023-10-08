@@ -1,0 +1,36 @@
+<!-- gastos_activity.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gastosLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informe seus gastos:"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/gastosEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="8dp"
+        android:hint="Digite seus gastos"
+        android:inputType="numberDecimal" />
+    <Button
+        android:id="@+id/listGastosButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listar Gastos"
+        android:layout_below="@id/gastosEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Outros elementos de interface do usuário podem ser adicionados aqui -->
+
+</RelativeLayout>
